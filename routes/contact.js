@@ -4,10 +4,11 @@ const router = express.Router()
 
 
 
-//Routes
 
-router.get('/contact', (req, res) => res.send ('<h1>This is the contact page</h1>Reach me at jmcgr004@campus.goldsmiths.ac.uk'))   
-
+//Route
+//Using user feedback to customise page
+router.get('/contact/:name', (req, res) => 
+    res.send(`<h1>Hello ${req.params.name}. This is the contact page</h1>Reach me at jmcgr004@campus.goldsmiths.ac.uk`))
 
 
 
