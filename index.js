@@ -11,7 +11,7 @@ const port = 7999;
 
 const mainRoutes = require("./routes/main");
 app.use('/', mainRoutes)
-const dateRoutes = require("./routes/dates");
+const dateRoutes = require("./routes/dates.js");
 app.use('/', dateRoutes)
 
 
