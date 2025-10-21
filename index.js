@@ -9,9 +9,10 @@ const port = 7999;
 
 // Route Handling
 
-const mainRoutes = require("./routes/main" && "./routes/dates");
+const mainRoutes = require("./routes/main");
 app.use('/', mainRoutes)
-
+const dateRoutes = require("./routes/dates");
+app.use('/', dateRoutes)
 
 
 
