@@ -17,7 +17,8 @@ const contactRoute = require("./routes/contact");
 app.use('/', contactRoute)
 const dateRoute = require("./routes/dates.js");
 app.use('/', dateRoute)
-
+const chainRoute = require("./routes/chain.js");
+app.use('/', chainRoute)
 
 
 // HTTP Requests
