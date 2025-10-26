@@ -5,7 +5,7 @@ const router = express.Router()
 
 
 //Routes
-router.get("/about",  (req, res) => res.sendFile(`/`))
+router.get("/about",  (req, res) => res.sendFile(`./files/file.html`))
 
 
 
