@@ -4,5 +4,9 @@ I am using express to create a more advanced webpage compared to using just HTML
 ## Application
 
 ## Technologies
+-Express
+-Node
+-Goldsmiths Local server
 
 ## How to Run
+Use the link found in 'link.txt
