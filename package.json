@@ -7,8 +7,16 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "I am using express to create a more advanced webpage compared to using just HTML. It consists of making routes for my webpage that can be accessed through different URLs.",
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FroggyDuck790/04_express_33849109.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FroggyDuck790/04_express_33849109/issues"
+  },
+  "homepage": "https://github.com/FroggyDuck790/04_express_33849109#readme"
 }
